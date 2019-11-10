@@ -1,0 +1,9 @@
+name: koremutake
+version: 0.1.0
+
+authors:
+  - Tijn Schuurmans <tijn@tijnschuurmans.nl>
+
+crystal: 0.27.0
+
+license: MIT
