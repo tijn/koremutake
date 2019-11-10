@@ -1,6 +1,6 @@
 # koremutake
 
-TODO: Write a description here
+Convert numbers to words that (supposedly) are easier to remember and compare.
 
 ## Installation
 
@@ -16,9 +16,11 @@ dependencies:
 
 ```crystal
 require "koremutake"
-```
 
-TODO: Write usage instructions here
+string = Koremutake.encode(0) # => "Ba"
+Koremutake.encode(10610353957) # => "Koremutake"
+Koremutake.decode(string) # => 0
+```
 
 ## Development
 
