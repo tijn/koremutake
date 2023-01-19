@@ -1,6 +1,7 @@
 # koremutake
 
-Convert numbers to words that (supposedly) are easier to remember and compare.
+* A Crystal library with the koremutake algorithm.
+* Convert numbers to words that (supposedly) are easier to remember and compare.
 
 ## Installation
 

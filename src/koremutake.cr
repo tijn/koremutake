@@ -16,7 +16,7 @@ class Koremutake
     @integer = integer.to_u64
   end
 
-  def self.for(object : Object)
+  def self.for_object(object : Object)
     new(object.object_id)
   end
 
